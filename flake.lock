@@ -1,0 +1,70 @@
+{
+  "nodes": {
+    "e": {
+      "inputs": {
+        "flake-compat": "flake-compat"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-JVdi8p6qwUCHzdaC6RzcnB50fFN/E6qac+hJIMql8oM=",
+        "path": "/nix/store/gbc82qw3h20253psnw7k7gzq70bh1rwi-source/subflake",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/gbc82qw3h20253psnw7k7gzq70bh1rwi-source/subflake",
+        "type": "path"
+      }
+    },
+    "flake-compat": {
+      "locked": {
+        "lastModified": 1698105996,
+        "narHash": "sha256-eVklq2IEjuMzT6YfHjNhWM+GupFoixrjRMi4pmDx1cc=",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1ecbbb6e3f22427f61a28d6e2d758966fb5f0287.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1ecbbb6e3f22427f61a28d6e2d758966fb5f0287.tar.gz"
+      }
+    },
+    "flake-compat_2": {
+      "locked": {
+        "lastModified": 1696426674,
+        "narHash": "sha256-kvjfFW7WAETZlt09AgDn1MrtKzP7t90Vf7vypd3OL1U=",
+        "rev": "0f9255e01c2351cc7d116c072cb317785dd33b33",
+        "revCount": 57,
+        "type": "tarball",
+        "url": "https://api.flakehub.com/f/pinned/edolstra/flake-compat/1.0.1/018afb31-abd1-7bff-a5e4-cff7e18efb7a/source.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1697723726,
+        "narHash": "sha256-SaTWPkI8a5xSHX/rrKzUe+/uVNy6zCGMXgoeMb7T9rg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7c9cc5a6e5d38010801741ac830a3f8fd667a7a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "e": "e",
+        "flake-compat": "flake-compat_2",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "flake-compat": {
+      "locked": {
+        "lastModified": 1698105996,
+        "narHash": "sha256-eVklq2IEjuMzT6YfHjNhWM+GupFoixrjRMi4pmDx1cc=",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1ecbbb6e3f22427f61a28d6e2d758966fb5f0287.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1ecbbb6e3f22427f61a28d6e2d758966fb5f0287.tar.gz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-compat": "flake-compat"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
